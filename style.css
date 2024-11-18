@@ -1,0 +1,64 @@
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(168, 168, 168);
+    border: 1px solid #f0f0f0;
+    margin-right: 5px; 
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.active-tab {
+    background-color: #1f1f1f;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.active-content {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    margin-top: 2px; 
+}
+
+input {
+    margin-top: 2px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1f1f1f; 
+    color: white; 
+    border: none;
+    border-radius:15px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f1f1f; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+}
